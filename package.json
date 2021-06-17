@@ -1,0 +1,21 @@
+{
+  "name": "book-store",
+  "version": "1.0.0",
+  "description": "this is book store website created with node js & mongoDb",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev start": "nodemon app.js"
+  },
+  "author": "ahmed-SD",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.1",
+    "mongoose": "^5.12.14"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0"
+  }
+}
